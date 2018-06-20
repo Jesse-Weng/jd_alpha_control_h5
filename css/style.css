@@ -302,6 +302,7 @@ body{
 @media screen and (max-width: 360px) {
     .title {
         margin-top: 10px;
+        margin-bottom: 10px;
         padding: 0px;
     }
     .home-display-good {
@@ -318,5 +319,15 @@ body{
     }
     .freezing-dialog {
         top: 13%;
+    }
+    .nav {
+        height: 40px;
+    }
+    .buttom-icon {
+        width: 20px;
+        height: 20px;
+    }
+    .bar-tab-item {
+        font-size: 12px;
     }
 }
