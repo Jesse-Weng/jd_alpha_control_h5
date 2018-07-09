@@ -361,11 +361,11 @@
           }
           //冷藏室温度
           if (val["stream_id"] == "RefrigerationTemperature") {
-            self.coldStorageIndex = val["current_value"];
+            self.coldStorageIndex = val["current_value"] - 80;
           }
           //环境传感器温度值
           if (val["stream_id"] == "EnvironmentalSensorTemperature") {
-            self.freezingIndex = val["current_value"];
+            self.freezingIndex = val["current_value"] - 80;
           }
           //杀菌是否启动
           if (val["stream_id"] == "NegativeIonFunction") {
